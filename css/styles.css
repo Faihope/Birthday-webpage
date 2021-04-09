@@ -7,3 +7,8 @@ h1{
     display: block;
     text-align: center;
 }
+.container{
+    padding-top: 100px;
+    font-size: larger;
+    
+}
