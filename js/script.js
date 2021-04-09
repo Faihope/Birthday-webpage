@@ -28,3 +28,36 @@ var male= function(){[
         akan:"Kwame"
     }
 ]}
+
+
+var female= function(){[
+    {
+        name:"Sunday",
+        akan:"Akosua"
+    },
+    {
+        name:"Monday",
+        akan:"Adwoa"
+    },
+    {
+        name:"Tuesday",
+        akan:"Abenaa"
+    },
+    {
+        name:"Wednesday",
+        akan:"Akua"
+    },
+    {
+        name:"Thursday",
+        akan:"Yaa"
+    },
+    {
+        name:"Friday",
+        akan:"Afua"
+    },
+    {
+        name:"Sartuday",
+        akan:"Ama"
+    }
+]}
+
