@@ -1,4 +1,4 @@
-var male=[
+var male= function(){[
     {
         name:"Sunday",
         akan:"Kwasi"
@@ -27,4 +27,4 @@ var male=[
         name:"Sartuday",
         akan:"Kwame"
     }
-]
+]}
