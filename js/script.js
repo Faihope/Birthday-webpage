@@ -5,6 +5,8 @@ function OnSubmit(){
     var yearEntered=validYear();
     var GenderEntered=validGender();
     var calculatedDay=calculateDayOfWeek(dateEntered,monthEntered,yearEntered);
+    var akanName = determineName(GenderEntered,calculatedDay);
+    document.getElementById("Display").innerHTML="Wow! Your Akan Name Is " + akanName;
 
 }
 
