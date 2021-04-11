@@ -2,6 +2,7 @@
 function OnSubmit(){
     validDate();
     validMonth();
+    validYear();
 
 }
 
@@ -30,6 +31,18 @@ function validMonth() {
         alert("please enter month")
     }
 
+}
 
+function validYear() {
+    var year = document.getElementById("Year").value;
+    if (year) {
+        if (year >= 1000 && year <= 9999) {
+            return year;
+        } else {
+            alert("year should be a four digit in the format xxxx");
+        }
+    } else {
+        alert("please enter year")
+    }
 
 }
