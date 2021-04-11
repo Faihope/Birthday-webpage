@@ -16,29 +16,29 @@
     <div class="dialog">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-12">
 
                     <p>please enter your birthday</p>
                     <input type="date" name="Birthday" id="birthday">
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-12">
                     <p>please choose your gender</p>
                     <label for="gender">Gender</label>
+                
                     <select name="Gender" id="mygender">
+                        <option value=""></option>
                         <option value="male">Male</option>
                         <option value="female">Female</option>
                     </select>
                 </div>
-                <div class="col-md-12 button">
-                    <input type="button" value="see your akan name">
-                </div>
-
             </div>
         </div>
-
-
-
     </div>
+    <div class="button">
+        <button onclick="male()">See Your Akan </button>
+    </div>
+    <p id="display"></p>
+    
 </body>
 
 </html>
