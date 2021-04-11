@@ -4,6 +4,7 @@ function OnSubmit(){
     validMonth();
     validYear();
     validGender();
+    calculateDayOfWeek();
 
 }
 
@@ -58,4 +59,17 @@ function validGender() {
     } else {
         alert("please enter the gender")
     }
+}
+
+function calculateDayOfWeek(day, month, year) {
+    var DD = day;
+    var MM = month;
+    var YY = parseInt(String(year).slice(2, 4));
+    var CC = parseInt(String(year).slice(0, 2));
+    var dayOfTheWeek = Math.round((((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7);
+    var dayPerIndex = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Sartuday"];
+    var indexOfTheDay = dayOfTheWeek - 1;
+    var nameOfTheDay = dayPerIndex[indexOfTheDay];
+    return nameOfTheDay;
+
 }
