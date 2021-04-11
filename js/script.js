@@ -3,6 +3,7 @@ function OnSubmit(){
     validDate();
     validMonth();
     validYear();
+    validGender();
 
 }
 
@@ -45,4 +46,16 @@ function validYear() {
         alert("please enter year")
     }
 
+}
+function validGender() {
+    var gender = document.getElementById("mygender").value;
+    if (gender) {
+        if (gender == "male" || gender == "female") {
+            return gender;
+        } else {
+            alert("gender should be either male or female");
+        }
+    } else {
+        alert("please enter the gender")
+    }
 }
