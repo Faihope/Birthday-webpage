@@ -6,7 +6,7 @@ body{
 
 h1{
     text-align: center;
-    color: aquamarine;
+    color:white;
 
 }
 .dialog{
@@ -33,4 +33,11 @@ padding-top: 50px;
     
     padding-left: 500px;
 
+}
+#Display{
+    padding-top: 50px;
+    color: white;
+    font-size: 2.5rem;
+    font-family: monospace;
+    text-align: center;
 }
