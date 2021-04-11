@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -18,13 +19,17 @@
             <div class="row">
                 <div class="col-md-12">
 
-                    <p>please enter your birthday</p>
-                    <input type="date" name="Birthday" id="birthday">
+                    <p>please enter the date</p>
+                    <input type="number" name="date" id="Date">
+                    <p>please enter the month</p>
+                    <input type="number" name="month" id="Month">
+                    <p>please enter the year</p>
+                    <input type="number" name="year" id="Year">
                 </div>
                 <div class="col-md-12">
                     <p>please choose your gender</p>
                     <label for="gender">Gender</label>
-                
+
                     <select name="Gender" id="mygender">
                         <option value=""></option>
                         <option value="male">Male</option>
@@ -36,9 +41,9 @@
     </div>
     <div class="button">
         <button onclick="OnSubmit()">See Your Akan </button>
+
     </div>
-    <p id="display"></p>
-    
+    <p id="Display"></p>
 </body>
 
 </html>

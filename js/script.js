@@ -1,6 +1,8 @@
 
 function OnSubmit(){
-    console.log("submitted");
+    validDate();
+    validMonth();
+
 }
 
 function validDate() {
@@ -14,6 +16,20 @@ function validDate() {
     } else {
         alert("please enter date")
     }
+}
+
+function validMonth() {
+    var month = document.getElementById("Month").value;
+    if (month) {
+        if (month >= 1 && month <= 12) {
+            return month;
+        } else {
+            alert("month should be 1-12");
+        }
+    } else {
+        alert("please enter month")
+    }
+
 
 
 }
