@@ -30,8 +30,9 @@ padding-top: 50px;
 }
 .column{
     width: 77%;
-    
     padding-left: 500px;
+    font-size: larger;
+    font-family: sans-serif;
 
 }
 #Display{
