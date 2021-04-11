@@ -1,10 +1,10 @@
 
 function OnSubmit(){
-    validDate();
-    validMonth();
-    validYear();
-    validGender();
-    calculateDayOfWeek();
+    var dateEntered=validDate();
+    var monthEntered=validMonth();
+    var yearEntered=validYear();
+    var GenderEntered=validGender();
+    var calculatedDay=calculateDayOfWeek(dateEntered,monthEntered,yearEntered);
 
 }
 
