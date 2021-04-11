@@ -86,6 +86,15 @@ function determineName(gender, dayOfWeek) {
             Sartuday: 'Kwame'
 
         },
+        female: {
+            Sunday: 'Akosua',
+            Monday: 'Adwoa',
+            Tuesday: 'Abenaa',
+            Wednesday: 'Akua',
+            Thursday: 'Yaa',
+            Friday: 'Afua',
+            Sartuday: 'Ama'
+        }
        
     }
     return dayGender[gender][dayOfWeek];
