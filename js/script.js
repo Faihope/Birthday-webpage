@@ -73,3 +73,20 @@ function calculateDayOfWeek(day, month, year) {
     return nameOfTheDay;
 
 }
+
+function determineName(gender, dayOfWeek) {
+    var dayGender = {
+        male: {
+            Sunday: 'Kwasi',
+            Monday: 'Kwadwo',
+            Tuesday: 'Kwabena',
+            Wednesday: 'Kwaku',
+            Thursday: 'Yaw',
+            Friday: 'Kofi',
+            Sartuday: 'Kwame'
+
+        },
+       
+    }
+    return dayGender[gender][dayOfWeek];
+}
