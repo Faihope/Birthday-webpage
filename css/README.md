@@ -20,7 +20,12 @@ JavaScript
 Git
 Bootstrap
 ### Live Site
-View [live](https://faihope.github.io/portfolio/)
+View [live](https://faihope.github.io/Birthday-webpage/)
+### BDD
+it describes:
+1.the behavior that we'll need to write code to handle
+2.a sample of input that would demonstrate the behavior
+3.the expected output we'd get when the code is working correctly
 ### Licence
 This project is under the  [MIT](LICENSE) licence
 License format:
