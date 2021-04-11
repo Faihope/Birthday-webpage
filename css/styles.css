@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(123, 147, 212);
+}
+
 h1{
     text-align: center;
     color: aquamarine;
@@ -8,7 +12,7 @@ h1{
     text-align: center;
 }
 .container{
-    padding-top: 100px;
+    padding-top: 50px;
     font-size: larger;
     
     
@@ -21,4 +25,10 @@ padding-top: 50px;
 }
 .col-md-12{
     padding-bottom: 50px;
+}
+.column{
+    width: 77%;
+    
+    padding-left: 500px;
+
 }
