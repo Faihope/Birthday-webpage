@@ -1,12 +1,12 @@
 
-function OnSubmit(){
-    var dateEntered=validDate();
-    var monthEntered=validMonth();
-    var yearEntered=validYear();
-    var GenderEntered=validGender();
-    var calculatedDay=calculateDayOfWeek(dateEntered,monthEntered,yearEntered);
-    var akanName = determineName(GenderEntered,calculatedDay);
-    document.getElementById("Display").innerHTML="Wow! Your Akan Name Is " + akanName;
+function OnSubmit() {
+    var dateEntered = validDate();
+    var monthEntered = validMonth();
+    var yearEntered = validYear();
+    var GenderEntered = validGender();
+    var calculatedDay = calculateDayOfWeek(dateEntered, monthEntered, yearEntered);
+    var akanName = determineName(GenderEntered, calculatedDay);
+    document.getElementById("Display").innerHTML = "Wow! Your Akan Name Is " + akanName;
 
 }
 
@@ -97,7 +97,7 @@ function determineName(gender, dayOfWeek) {
             Friday: 'Afua',
             Sartuday: 'Ama'
         }
-       
+
     }
     return dayGender[gender][dayOfWeek];
 }
