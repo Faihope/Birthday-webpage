@@ -1,5 +1,7 @@
 body{
     background-color: rgb(123, 147, 212);
+    background-image: url("css/images/img.jpg");
+    background-size: cover;
 }
 
 h1{
